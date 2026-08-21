@@ -1,0 +1,17 @@
+[project]
+name = "fanqie-fetch"
+version = "0.1.0"
+description = "番茄小说采集工具：解析 woff 字体反爬，采集小说内容"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fonttools==4.55.3",
+    "brotli==1.1.0",
+    "lxml==5.3.0",
+    "requests==2.32.3",
+    "ddddocr==1.5.6",
+    "pillow==11.0.0",
+]
+
+[tool.uv]
+package = false

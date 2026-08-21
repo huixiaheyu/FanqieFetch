@@ -1,5 +1,12 @@
+# IDE
 .idea/
-node_modules/
-venv/
-*.pyc
+.vscode/
+
+# Python
 __pycache__/
+*.pyc
+.venv/
+venv/
+
+# 依赖与构建
+node_modules/
